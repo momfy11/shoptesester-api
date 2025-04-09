@@ -2,6 +2,10 @@
 
 A .NET Core Web API application for managing an online shop with products, categories, users, and orders.
 
+Install newman and write following command ```newman run api-test/API-Tests.postman_collection.json -e api-test/Api_test_url.postman_environment.json --reporters cli,json \
+            --reporter-json-export newman-report.json```
+
+
 ## Features
 
 - **Authentication & Authorization**
